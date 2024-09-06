@@ -4,7 +4,7 @@ import { render } from 'solid-js/web';
 import './index.css';
 import Home from './pages/Home';
 import JsonCodeGen from './pages/JsonCodeGen';
-import { Route, Router } from '@solidjs/router';
+import { Route, HashRouter } from '@solidjs/router';
 import { MetaProvider } from '@solidjs/meta';
 
 const root = document.getElementById('root');
@@ -17,9 +17,9 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
 
 render(() => (
   <MetaProvider>
-    <Router>
+    <HashRouter>
       <Route path="/" component={Home} />
       <Route path="/jsoncodegen" component={JsonCodeGen} />
-    </Router>
+    </HashRouter>
   </MetaProvider>
 ), root!);
