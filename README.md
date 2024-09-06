@@ -1,3 +1,3 @@
 # site
 
-source code for the [zahash.github.io](zahash.github.io) site
+source code for the [zahash.github.io](https://zahash.github.io/) site
