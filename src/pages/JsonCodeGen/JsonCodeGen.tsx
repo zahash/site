@@ -40,7 +40,7 @@ const JsonCodeGen: Component = () => {
             </div>
 
             <div class={styles.Main}>
-                <textarea ref={ele => jsonInputRef = ele} class={styles.TextArea} placeholder="Paste your JSON here"></textarea>
+                <textarea ref={ele => jsonInputRef = ele} class={styles.TextArea} placeholder="Paste your JSON here" spellcheck={false}></textarea>
                 <textarea ref={ele => codeOutputRef = ele} class={styles.TextArea} readonly placeholder="Generated Code"></textarea>
             </div>
         </div>
