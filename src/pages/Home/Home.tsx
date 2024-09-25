@@ -7,7 +7,7 @@ const links = [
   { name: "GitHub", href: "https://github.com/zahash/" },
   { name: "LinkedIn", href: "https://www.linkedin.com/in/zahash/" },
   { name: "Email", href: "mailto:zahash.z@gmail.com" },
-  { name: "Resume", href: "assets/resume.pdf" }
+  { name: "Resume", href: "/resume.pdf" }
 ];
 
 const projects = [
