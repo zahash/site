@@ -7,7 +7,7 @@ const links = [
   { name: "GitHub", href: "https://github.com/zahash/" },
   { name: "LinkedIn", href: "https://www.linkedin.com/in/zahash/" },
   { name: "Email", href: "mailto:zahash.z@gmail.com" },
-  { name: "Resume", href: "https://github.com/zahash/resume/blob/main/resume.pdf" }
+  { name: "Resume", href: "assets/resume.pdf" }
 ];
 
 const projects = [
@@ -27,7 +27,7 @@ const Home: Component = () => {
       <header class={styles.Header}>
         <h1 class={styles.Name}>zahash</h1>
         {links.map(link =>
-          <a class={["link", styles.Link].join(' ')} href={link.href}>{link.name}</a>
+          <a class={["link", styles.Link].join(' ')} href={link.href} target="_blank" rel="noopener noreferrer">{link.name}</a>
         )}
         <p>Love writing software of all shapes and sizes</p>
       </header>
