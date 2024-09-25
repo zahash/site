@@ -32,11 +32,19 @@ const Home: Component = () => {
         <p>Love writing software of all shapes and sizes</p>
       </header>
 
-      {projects.map(proj =>
-        <a href={proj.link}>
-          <img src={proj.img} alt={proj.name} class={styles.Img}></img>
-        </a>
-      )}
+      {projects.map(proj => {
+        const isInternal = proj.link.startsWith("/");
+
+        return (
+          <a
+            href={proj.link}
+            target={isInternal ? undefined : "_blank"}
+            rel={isInternal ? undefined : "noopener noreferrer"}
+          >
+            <img src={proj.img} alt={proj.name} class={styles.Img}></img>
+          </a>
+        );
+      })}
     </div>
   </>;
 };
