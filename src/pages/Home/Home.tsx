@@ -13,6 +13,7 @@ const links = [
 const projects = [
   { name: "jsoncodegen", link: "/jsoncodegen", img: "https://repository-images.githubusercontent.com/835807491/1c3f871c-7b3d-475e-8577-999ec870b44e" },
   { name: "utf8.c", link: "https://github.com/zahash/utf8.c", img: "https://repository-images.githubusercontent.com/773322954/69bc35ce-e571-46d7-a1cb-25f0df30015e" },
+  { name: "quarantine", link: "https://github.com/zahash/quarantine", img: "https://repository-images.githubusercontent.com/861012829/3203848d-13ff-4e02-a9f9-2121352b7fc4" },
   { name: "reactivate", link: "https://github.com/zahash/reactivate", img: "https://repository-images.githubusercontent.com/665972798/5c6f3ce4-6a80-4f51-b623-f96457b47afd" },
   { name: "royalguard", link: "https://github.com/zahash/royalguard", img: "https://repository-images.githubusercontent.com/696733418/f0c12dea-6fd0-46c3-b634-211f1861d792" },
   { name: "csc", link: "https://github.com/zahash/csc", img: "https://repository-images.githubusercontent.com/703878154/ab3138be-5267-4638-9ffc-80509547d6c3" },
